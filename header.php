@@ -21,12 +21,33 @@
 </head>
 <body <?php body_class(); ?>>
 
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1>
-                    <?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>
-                </h1>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>
+                        <?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>
+                    </h1>
+                </div>
             </div>
         </div>
-    </div>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="/">Accueil</a>
+            </li>
+            <li>
+                <a href="/ctg/cuisine-italienne/">Catégorie cuisine italienne</a>
+            </li>
+            <li>
+                <a href="/ctg/cuisine-japonaise/">Catégorie cuisine japonaise</a>
+            </li>
+            <li>
+                <a href="/tag/boeuf/">Étiquette boeuf</a>
+            </li>
+            <li>
+                <a href="/tag/bouillon/">Étiquette bouillon</a>
+            </li>
+        </ul>
+    </nav>
