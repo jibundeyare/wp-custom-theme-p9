@@ -1,5 +1,4 @@
 <?php
-
 get_header();
 ?>
 <div class="container">
@@ -16,6 +15,10 @@ if (have_posts()):
             </article>
         <?php
     endwhile;
+else:
+    ?>
+        <p>Aucun post n'a été trouvé</p>
+    <?php
 endif;
 ?>
         </div>
